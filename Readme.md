@@ -10,5 +10,5 @@ npm install --save-dev react-scripts
 npm run ios npm run android npm run web
 ```
 ``` bash
-npm start
+npm expo start
 ```
