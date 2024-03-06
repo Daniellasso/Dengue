@@ -31,7 +31,7 @@ function Home() {
             (diabetes, asma brônquica, anemia falciforme)."Fim do Texto de
             Exemplo Temporario"
           </Text>
-          <View style={{ marginLeft: "20%" }}>
+          <View>
             <Image
               source={require("../../assets/moquito.png")}
               style={styles.img}
@@ -67,7 +67,8 @@ const styles = StyleSheet.create({
       },
       web: {
         fontSize: 90,
-        marginLeft: 10
+        marginLeft: 30,
+        marginTop: 15
       }
     })
   },
@@ -75,13 +76,14 @@ const styles = StyleSheet.create({
     ...Platform.select({
       android: {
         width: 210,
-        height: 190
+        height: 190,
+        marginLeft: 70
       },
       web: {
         width: 550,
         height: 490,
         marginLeft: "40%",
-        marginTop: "10%"
+        marginTop: "5%"
       }
     })
   },
@@ -98,7 +100,7 @@ const styles = StyleSheet.create({
       },
       web: {
         width: 700,
-        fontSize: 40,
+        fontSize: 35,
         padding: 35,
         header: "10%",
         color: "#fff",
@@ -119,7 +121,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         backgroundColor: "#48107d",
         height: "100%",
-        padding: "0 30px"
+        padding: "30"
       }
     })
   }
