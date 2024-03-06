@@ -20,7 +20,12 @@ export default function Up() {
       <View style={styles.header}>
         <Text style={styles.title}>Dados Levantados</Text>
       </View>
-      <View style={styles.body}><Text>a</Text></View>
+      <View style={styles.body}><Text> {" "}"Texto de Exemplo Temporario" É uma doença infecciosa febril aguda,
+            que pode se apresentar de forma benigna ou grave, dependendo de
+            alguns fatores, entre eles: o vírus envolvido, infecção anterior
+            pelo vírus da dengue e fatores individuais como doenças crônicas
+            (diabetes, asma brônquica, anemia falciforme)."Fim do Texto de
+            Exemplo Temporario"</Text></View>
     </View>
   )
 }
