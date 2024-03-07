@@ -7,7 +7,7 @@ import {
   Montserrat_700Bold
 } from "@expo-google-fonts/montserrat";
 
-export default function Up() {
+export default function Estadual() {
   let [fontsLoaded] = useFonts({
     Montserrat_400Regular,
     Montserrat_700Bold
