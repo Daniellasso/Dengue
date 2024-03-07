@@ -20,12 +20,7 @@ export default function Federal() {
       <View style={styles.header}>
         <Text style={styles.title}>Dados Levantados</Text>
       </View>
-      <View style={styles.body}><Text> {" "}"Texto de Exemplo Temporario" É uma doença infecciosa febril aguda,
-            que pode se apresentar de forma benigna ou grave, dependendo de
-            alguns fatores, entre eles: o vírus envolvido, infecção anterior
-            pelo vírus da dengue e fatores individuais como doenças crônicas
-            (diabetes, asma brônquica, anemia falciforme)."Fim do Texto de
-            Exemplo Temporario"</Text></View>
+      <View style={styles.body}><Text> {" "O Brasil passou de 1 milhão de casos (prováveis e confirmados) de dengue em 2024. Segundo dados do Painel de Arboviroses do Ministério da Saúde desta quinta-feira (29), o país registrou 1.017.278 casos nas primeiras oito semanas deste ano.</Text></View>
     </View>
   )
 }
