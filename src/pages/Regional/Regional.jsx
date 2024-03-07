@@ -15,6 +15,7 @@ Ainda de acordo com Mara, o caso positivo foi identificado em uma moradora da á
 
 Na data de hoje, Santo Anastácio se encontra em estado de ALERTA em relação ao relatório de índice larvário (ADL), realizado pela equipe de endemias.
 "Nosso IP – está em 1,28 e o IB – em 1,46, o satisfatório seria de 1, mas vamos continuar trabalhando para mantermos um bom resultado".</Text>
+      <Image soucer={require('../assets/municipal_detetizacao.jpg')} />
     </View>
   );
 }
