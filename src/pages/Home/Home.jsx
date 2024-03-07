@@ -24,7 +24,15 @@ function Home() {
         <View style={styles.body}>
           <Text style={styles.text}>
             {" "}
-            Bem-vindo ao nosso site dedicado à conscientização e prevenção da dengue, uma doença viral transmitida por mosquitos que representa um sério problema de saúde pública em muitas regiões do mundo. Aqui, você encontrará informações essenciais sobre a dengue, seus sintomas, métodos de prevenção e tratamento, além de dicas práticas para proteger você e sua comunidade contra essa enfermidade. Junte-se a nós na luta contra a dengue, pois a informação e a prevenção são as melhores armas para combater essa doença. Vamos juntos construir um ambiente mais saudável e seguro para todos!
+            Bem-vindo ao nosso site dedicado à conscientização e prevenção da
+            dengue, uma doença viral transmitida por mosquitos que representa um
+            sério problema de saúde pública em muitas regiões do mundo. Aqui,
+            você encontrará informações essenciais sobre a dengue, seus
+            sintomas, métodos de prevenção e tratamento, além de dicas práticas
+            para proteger você e sua comunidade contra essa enfermidade.
+            Junte-se a nós na luta contra a dengue, pois a informação e a
+            prevenção são as melhores armas para combater essa doença. Vamos
+            juntos construir um ambiente mais saudável e seguro para todos!
           </Text>
           <View>
             <Image
@@ -70,9 +78,10 @@ const styles = StyleSheet.create({
   img: {
     ...Platform.select({
       android: {
-        width: 210,
-        height: 190,
-        marginLeft: 70
+        width: 180,
+        height: 150,
+        marginLeft: 90,
+        marginTop: 50
       },
       web: {
         width: 550,
@@ -87,7 +96,7 @@ const styles = StyleSheet.create({
       android: {
         width: 250,
         marginLeft: 15,
-        fontSize: 20,
+        fontSize: 15,
         color: "#fff",
         width: 300,
         marginTop: 25,
@@ -95,7 +104,7 @@ const styles = StyleSheet.create({
       },
       web: {
         width: 700,
-        fontSize: 35,
+        fontSize: 28,
         padding: 35,
         header: "10%",
         color: "#fff",

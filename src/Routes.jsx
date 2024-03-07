@@ -64,10 +64,10 @@ export default function Routes() {
         }}
       />
       <Drawer.Screen
-        name="Criandores"
+        name="Desenvolvedores"
         component={Criandores}
         options={{
-          drawerLabel: "Criandores",
+          drawerLabel: "Desenvolvedores",
           drawerIcon: ({ color, size }) => (
             <Feather name="user" size={size} color={color} />
           )
