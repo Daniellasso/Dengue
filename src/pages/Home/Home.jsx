@@ -24,12 +24,7 @@ function Home() {
         <View style={styles.body}>
           <Text style={styles.text}>
             {" "}
-            "Texto de Exemplo Temporario" É uma doença infecciosa febril aguda,
-            que pode se apresentar de forma benigna ou grave, dependendo de
-            alguns fatores, entre eles: o vírus envolvido, infecção anterior
-            pelo vírus da dengue e fatores individuais como doenças crônicas
-            (diabetes, asma brônquica, anemia falciforme)."Fim do Texto de
-            Exemplo Temporario"
+            Bem-vindo ao nosso site dedicado à conscientização e prevenção da dengue, uma doença viral transmitida por mosquitos que representa um sério problema de saúde pública em muitas regiões do mundo. Aqui, você encontrará informações essenciais sobre a dengue, seus sintomas, métodos de prevenção e tratamento, além de dicas práticas para proteger você e sua comunidade contra essa enfermidade. Junte-se a nós na luta contra a dengue, pois a informação e a prevenção são as melhores armas para combater essa doença. Vamos juntos construir um ambiente mais saudável e seguro para todos!
           </Text>
           <View>
             <Image

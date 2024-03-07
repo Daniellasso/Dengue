@@ -2,7 +2,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import Home from "./pages/Home/Home";
 import Up from "./pages/Up/Up";
 import Criandores from "./pages/Criadores/Criandores";
-import Regional from "./pages/Regional/Regional";
+import Municipal from "./pages/Municipal/Municipal";
 import Estadual from "./pages/Estadual/Estadual";
 import Federal from "./pages/Federal/Federal";
 
@@ -34,10 +34,10 @@ export default function Routes() {
         }}
       />
       <Drawer.Screen
-        name="Regional"
-        component={Regional}
+        name="Municipal"
+        component={Municipal}
         options={{
-          drawerLabel: "Regional",
+          drawerLabel: "Municipal",
           drawerIcon: ({ color, size }) => (
             <Feather name="bookmark" size={size} color={color} />
           )
