@@ -20,12 +20,7 @@ export default function Estadual() {
       <View style={styles.header}>
         <Text style={styles.title}>Dados Levantados</Text>
       </View>
-      <View style={styles.body}><Text> {" "}"Texto de Exemplo Temporario" É uma doença infecciosa febril aguda,
-            que pode se apresentar de forma benigna ou grave, dependendo de
-            alguns fatores, entre eles: o vírus envolvido, infecção anterior
-            pelo vírus da dengue e fatores individuais como doenças crônicas
-            (diabetes, asma brônquica, anemia falciforme)."Fim do Texto de
-            Exemplo Temporario"</Text></View>
+      <View style={styles.body}><Text> {" "}Novo boletim da Secretaria de Saúde de São Paulo publicado nesta quarta-feira (6) mostrou que o estado ultrapassou os 150 mil casos em 2024. Ao todo, são 152.471 casos confirmados e outros 86.099 estão em investigação. São 38 mortes pela doença.</Text></View>
     </View>
   )
 }
